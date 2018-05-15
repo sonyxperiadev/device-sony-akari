@@ -16,6 +16,9 @@ include device/sony/tama/PlatformConfig.mk
 
 TARGET_BOOTLOADER_BOARD_NAME := tama
 
+# Platform
+PRODUCT_PLATFORM := tama
+
 # NFC
 NXP_CHIP_TYPE := PN553
 NXP_CHIP_FW_TYPE := PN553
