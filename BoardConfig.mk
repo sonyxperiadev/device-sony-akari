@@ -36,8 +36,8 @@ BOARD_KERNEL_CMDLINE += androidboot.hardware=akari
 # Partition information
 BOARD_FLASH_BLOCK_SIZE := 131072 # (BOARD_KERNEL_PAGESIZE * 64)
 BOARD_SYSTEMIMAGE_PARTITION_SIZE := 4227858432
-# Reserve space for data encryption (51448823808-16384)
-BOARD_USERDATAIMAGE_PARTITION_SIZE := 51448807424
+# Reserve space for data encryption (44712771584-16384)
+BOARD_USERDATAIMAGE_PARTITION_SIZE := 44712755200
 
 # DTBO partition definitions
 BOARD_PREBUILT_DTBOIMAGE := kernel/sony/msm-4.9/common-kernel/dtbo-akari.img
