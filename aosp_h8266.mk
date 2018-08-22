@@ -12,15 +12,15 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# Inherit from those products. Most specific first.
-$(call inherit-product, device/sony/akari/aosp_h8216.mk)
-
 # DualSim
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.multisim.config=dsds \
     persist.radio.multisim.config=dsds \
     ro.telephony.default_network=9,9 \
     persist.vendor.radio.block_allow_data=0
+
+# Inherit from those products. Most specific first.
+$(call inherit-product, device/sony/akari/aosp_h8216.mk)
 
 PRODUCT_NAME := aosp_h8266
 PRODUCT_DEVICE := akari
