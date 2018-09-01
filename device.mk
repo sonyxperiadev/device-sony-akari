@@ -60,10 +60,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     power.akari
 
-# NFC config
-PRODUCT_PACKAGES += \
-    nfc_nci.akari
-
 # Telephony Packages (AOSP)
 PRODUCT_PACKAGES += \
     InCallUI \
