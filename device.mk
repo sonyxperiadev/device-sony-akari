@@ -24,6 +24,44 @@ PRODUCT_COPY_FILES := \
     frameworks/native/data/etc/android.hardware.telephony.gsm.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.telephony.gsm.xml \
     frameworks/native/data/etc/android.software.verified_boot.xml:system/etc/permissions/android.software.verified_boot.xml
 
+# Sensors
+PRODUCT_COPY_FILES += \
+    $(DEVICE_PATH)/vendor/etc/sensors/config/sns_geomag_rv.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_geomag_rv.json \
+    $(DEVICE_PATH)/vendor/etc/sensors/config/ak991x_dri_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/ak991x_dri_0.json \
+    $(DEVICE_PATH)/vendor/etc/sensors/config/sns_tilt.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_tilt.json \
+    $(DEVICE_PATH)/vendor/etc/sensors/config/sns_rmd.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_rmd.json \
+    $(DEVICE_PATH)/vendor/etc/sensors/config/sns_diag_filter.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_diag_filter.json \
+    $(DEVICE_PATH)/vendor/etc/sensors/config/sns_device_orient.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_device_orient.json \
+    $(DEVICE_PATH)/vendor/etc/sensors/config/lsm6dsm_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/lsm6dsm_0.json \
+    $(DEVICE_PATH)/vendor/etc/sensors/config/tmd2725_prox_miscta.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/tmd2725_prox_miscta.json \
+    $(DEVICE_PATH)/vendor/etc/sensors/config/sdm845_lsm6dsm_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sdm845_lsm6dsm_0.json \
+    $(DEVICE_PATH)/vendor/etc/sensors/config/sns_tilt_to_wake.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_tilt_to_wake.json \
+    $(DEVICE_PATH)/vendor/etc/sensors/config/sns_fmv.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_fmv.json \
+    $(DEVICE_PATH)/vendor/etc/sensors/config/sns_multishake.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_multishake.json \
+    $(DEVICE_PATH)/vendor/etc/sensors/config/sdm845_lsm6dsm_0_gyro_miscta.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sdm845_lsm6dsm_0_gyro_miscta.json \
+    $(DEVICE_PATH)/vendor/etc/sensors/config/sns_cm.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_cm.json \
+    $(DEVICE_PATH)/vendor/etc/sensors/config/sns_bring_to_ear.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_bring_to_ear.json \
+    $(DEVICE_PATH)/vendor/etc/sensors/config/tmd2725.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/tmd2725.json \
+    $(DEVICE_PATH)/vendor/etc/sensors/config/sns_mag_cal.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_mag_cal.json \
+    $(DEVICE_PATH)/vendor/etc/sensors/config/sns_dpc.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_dpc.json \
+    $(DEVICE_PATH)/vendor/etc/sensors/config/sdm845_lsm6dsm_0_somc_product.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sdm845_lsm6dsm_0_somc_product.json \
+    $(DEVICE_PATH)/vendor/etc/sensors/config/sdm845_ak991x_0_somc_product.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sdm845_ak991x_0_somc_product.json \
+    $(DEVICE_PATH)/vendor/etc/sensors/config/sns_distance_bound.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_distance_bound.json \
+    $(DEVICE_PATH)/vendor/etc/sensors/config/sns_facing.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_facing.json \
+    $(DEVICE_PATH)/vendor/etc/sensors/config/sns_pedometer.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_pedometer.json \
+    $(DEVICE_PATH)/vendor/etc/sensors/config/sns_smd.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_smd.json \
+    $(DEVICE_PATH)/vendor/etc/sensors/config/sns_amd.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_amd.json \
+    $(DEVICE_PATH)/vendor/etc/sensors/config/sdm845_ak991x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sdm845_ak991x_0.json \
+    $(DEVICE_PATH)/vendor/etc/sensors/config/sdm845_bmp380_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sdm845_bmp380_0.json \
+    $(DEVICE_PATH)/vendor/etc/sensors/config/sns_basic_gestures.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_basic_gestures.json \
+    $(DEVICE_PATH)/vendor/etc/sensors/config/sns_rotv.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_rotv.json \
+    $(DEVICE_PATH)/vendor/etc/sensors/config/sdm845_lsm6dsm_0_accel_miscta.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sdm845_lsm6dsm_0_accel_miscta.json \
+    $(DEVICE_PATH)/vendor/etc/sensors/config/bmp380_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/bmp380_0.json \
+    $(DEVICE_PATH)/vendor/etc/sensors/config/sns_gyro_cal.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_gyro_cal.json \
+    $(DEVICE_PATH)/vendor/etc/sensors/config/sdm845_tmd2725.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sdm845_tmd2725.json \
+    $(DEVICE_PATH)/vendor/etc/sensors/registry/sensors_registry:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/registry/sensors_registry \
+    $(DEVICE_PATH)/vendor/etc/sensors/sns_reg_config:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sns_reg_config
+
 # Audio Configuration
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/vendor/etc/audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_configuration.xml \
