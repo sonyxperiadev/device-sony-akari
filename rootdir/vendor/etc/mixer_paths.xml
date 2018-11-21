@@ -2415,6 +2415,12 @@
         <ctl name="SLIM_0_TX Format" value="S24_LE" />
     </path>
 
+    <path name="voice-rec-mic">
+        <path name="camcorder-mic-common" />
+        <ctl name="DEC8 Volume" value="86" />
+        <ctl name="DEC7 Volume" value="90" />
+    </path>
+
     <path name="camcorder-mic">
         <path name="camcorder-mic-common" />
         <ctl name="DEC8 Volume" value="86" />
