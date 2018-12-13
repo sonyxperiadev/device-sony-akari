@@ -45,5 +45,3 @@ BOARD_PREBUILT_DTBOIMAGE := kernel/sony/msm-4.9/common-kernel/dtbo-akari.img
 else
 TARGET_NEEDS_DTBOIMAGE := true
 endif
-
-TARGET_DEVICE_NO_FPC := true
