@@ -90,10 +90,6 @@ PRODUCT_PACKAGES += \
     init.recovery.akari \
     init.akari
 
-# Simple PowerHAL
-PRODUCT_PACKAGES += \
-    power.akari
-
 # Telephony Packages (AOSP)
 PRODUCT_PACKAGES += \
     InCallUI \
