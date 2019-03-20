@@ -16,8 +16,6 @@
 PRODUCT_DEVICE_DS := true
 
 PRODUCT_PROPERTY_OVERRIDES += \
-    persist.multisim.config=dsds \
-    persist.radio.multisim.config=dsds \
     ro.telephony.default_network=9,9 \
     persist.vendor.radio.block_allow_data=0
 
