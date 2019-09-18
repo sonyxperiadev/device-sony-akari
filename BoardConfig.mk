@@ -38,7 +38,7 @@ BOARD_DTBOIMG_PARTITION_SIZE := 8388608
 
 # DTBO partition definitions
 ifneq ($(TARGET_COMPILE_WITH_MSM_KERNEL),true)
-BOARD_PREBUILT_DTBOIMAGE := kernel/sony/msm-4.9/common-kernel/dtbo-akari.img
+BOARD_PREBUILT_DTBOIMAGE := kernel/sony/msm-4.14/common-kernel/dtbo-akari.img
 else
 TARGET_NEEDS_DTBOIMAGE := true
 endif
