@@ -15,8 +15,9 @@
 # Device path
 DEVICE_PATH := device/sony/akari/rootdir
 
-DEVICE_PACKAGE_OVERLAYS += \
-    device/sony/akari/overlay
+# Runtime Resource Overlay
+PRODUCT_PACKAGES += \
+    DeviceAkariAndroid
 
 # Device Specific Permissions
 PRODUCT_COPY_FILES := \
