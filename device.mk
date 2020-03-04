@@ -56,8 +56,7 @@ PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/vendor/etc/sensors/config/bmp380_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/bmp380_0.json \
     $(DEVICE_PATH)/vendor/etc/sensors/config/sns_gyro_cal.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_gyro_cal.json \
     $(DEVICE_PATH)/vendor/etc/sensors/config/sdm845_tmd2725.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sdm845_tmd2725.json \
-    $(DEVICE_PATH)/vendor/etc/sensors/registry/sensors_registry:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/registry/sensors_registry \
-    $(DEVICE_PATH)/vendor/etc/sensors/sns_reg_config:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sns_reg_config
+    $(DEVICE_PATH)/vendor/etc/sensors/registry/sensors_registry:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/registry/sensors_registry
 
 # Audio Configuration
 PRODUCT_COPY_FILES += \
