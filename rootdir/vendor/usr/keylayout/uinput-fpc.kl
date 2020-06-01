@@ -1,0 +1,16 @@
+#key 103   SYSTEM_NAVIGATION_UP
+#key 108   SYSTEM_NAVIGATION_DOWN
+# Left and right are swapped, because this is a back-mounted sensor.
+# In other words, the sensor is mirrored relative to the screen.
+#key 106   SYSTEM_NAVIGATION_LEFT
+#key 105   SYSTEM_NAVIGATION_RIGHT
+
+# Akari and Akatsuki, as seen from the front
+#
+#             103
+#              ^
+#              |
+#    106 <-----|-----> 105
+#              |
+#              v
+#             108
